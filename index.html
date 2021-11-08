@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Component | Post</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="main-header">
+    <div class="container">
+        <h1>post component</h1>
+    </div>
+  </header>
+  <!-- end-header -->
+  <!-- post-component -->
+  <section class="container posts-section">
+    <div class="posts">
+
+
+      <post-article title="frist post" image="https://source.unsplash.com/1600x900/?nature,nature" author=" ali hussein">
+        <span slot="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        <span slot="details">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </span>
+      </post-article>
+
+      <post-article title="second post" image="https://source.unsplash.com/1600x900/?nature" author =" ali hussein">
+        <span slot="description">Lorem ipsum dolor sit amet.</span>
+        <span slot="details">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </span>
+      </post-article>
+
+      <post-article title="another post" image="https://source.unsplash.com/1600x900/?nature,water" author=" ali hussein">
+        <span slot="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        <span slot="details">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </span>
+      </post-article>
+
+      <post-article title="last post" image="https://source.unsplash.com/1600x900/?nature,sea" author=" ali hussein">
+        <span slot="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        <span slot="details">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </span>
+      </post-article>
+
+
+    </div>
+  </section>
+  <!-- end-post-component -->
+  <script src="./postArticle.js" charset="utf-8"></script>
+</body>
+</html>
